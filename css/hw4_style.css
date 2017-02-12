@@ -64,45 +64,29 @@ table {
 }
 
 .topmenu {
-	float: right;
-	margin-top: 10px;
+	float:  right;
+	height: 36px;
+	line-height: 36px;
 }
 
 .topmenu li {
-	float: left;
+	float:  left;
 	margin-right: 20px;
 }
 
-.topmenu a{
-	color:  #fff;
+.topmenu li a {
 	text-decoration: none;
+	color: #fff;
+	display: block;
 }
 
 .main {
 	margin-bottom: 20px;
 }
 
-.menu {
-	width: 180px;
-	background: #000;
-	float: left;
-	margin-right: 10px;
-	color:  #fff;
-	padding: 10px;
-}
-
-.content {
-	width: 790px;
-	height: 50px;
-	background: pink;
-	float:  right;
-}
-
-.clearfix {
-	clear: both;
-}
-
 .footer {
 	height: 50px;
+	line-height: 50px;
+	text-align: center;
 	background: gray;
 }
