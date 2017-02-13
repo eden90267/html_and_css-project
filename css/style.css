@@ -47,62 +47,39 @@ table {
 	border-spacing: 0;
 }
 
-.wrap {
-	width: 1000px;
-	margin: 0 auto;
-}
-
 .header {
-	padding-top: 12px;
-	height: 48px;
-	background: red;
-	margin-bottom: 20px;
+	width: 300px;
+	height: 200px;
+	border: 1px solid red;
+	position: relative;
 }
 
-.logo {
-	float: left;
-}
-
-.topmenu {
-	float: right;
-	margin-top: 10px;
-}
-
-.topmenu li {
-	float: left;
-	margin-right: 20px;
-}
-
-.topmenu a{
-	color:  #fff;
-	text-decoration: none;
-}
-
-.main {
-	margin-bottom: 20px;
-}
-
-.menu {
-	width: 180px;
+.box {
+	width: 100px;
+	height: 100px;
 	background: #000;
-	float: left;
-	margin-right: 10px;
-	color:  #fff;
-	padding: 10px;
+	position: absolute;
+	right: -10px;
+	bottom: -10px;
+	z-index: 9;
 }
 
-.content {
-	width: 790px;
-	height: 50px;
+.box2 {
+	width: 100px;
+	height: 100px;
+	background: red;
+	position: absolute;
+	right: -40px;
+	bottom: -10px;
+	z-index: 9;
+}
+
+.box3 {
+	width: 100px;
+	height: 100px;
 	background: pink;
-	float:  right;
-}
-
-.clearfix {
-	clear: both;
-}
-
-.footer {
-	height: 50px;
-	background: gray;
+	position: absolute;
+	right: -20px;
+	bottom: -50px;
+	z-index: 30;
 }
