@@ -47,19 +47,88 @@ table {
 	border-spacing: 0;
 }
 
-/* ========================================== */
+/* ============================================================ */
+
+.wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.bar {
+	background: #f6f6f6;
+	height: 28px;
+	margin-top: 10px;
+}
+
+.bar ul {
+	float: right;
+}
+
+.bar ul li {
+	float: left;
+	margin: 5px;
+}
+
+.bar ul li a {
+	text-decoration: none;
+}
+
+.bar ul li a img {
+	margin-right: 2px;
+	float: left; /* 用float清除圖片下方的留白 */
+}
+
+.bar ul li a span {
+	font-size: 16px;
+	float: left;
+}
+
+.facebook span {
+	color: blue;
+}
+
+.twitter span {
+	color: #00aaec;
+}
+
+.header {
+	height: 50px;
+}
 
 .header h1 {
-	float: left;
+	float:  left;
 }
 
 .header h1 a {
 	background-image: url(../img/logo.png);
-	background-color: gray;
+	background-repeat: no-repeat;
+	display: block;
 	width: 170px;
 	height: 36px;
-	display: block;
+	margin-top: 7px;
 	text-indent: 101%;
 	overflow: hidden;
 	white-space: nowrap;
+}
+
+.header ul {
+	float: right;
+}
+
+.header ul li {
+	float:  left;
+}
+
+.header ul li a {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 30px;
+	padding-right: 15px;
+	text-decoration: none;
+	color: #00cc99;
+}
+
+.header ul li a:hover {
+	background: #f6f6f6;
 }
