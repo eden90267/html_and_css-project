@@ -50,21 +50,9 @@ table {
 /* ========================================== */
 
 .box {
-	width: 1002px;
-	height: 405px;
-	background-image: url(../img/bg.png);
-}
-
-.box h2 {
-	color: #fff;
-	font-size: 36px;
-	text-align: center;
-	padding-top: 20px;
-}
-
-.box2 {
-	width: 1002px;
-	height: 405px;
-	/* background: linear-gradient(#00644b, #009771); */
-	background: -webkit-linear-gradient(left, red, yellow);
+	width: 200px;
+	height: 200px;
+	background: green;
+	box-shadow: 10px 10px 10px pink;
+	-webkit-box-shadow: 10px 10px 10px pink;
 }
