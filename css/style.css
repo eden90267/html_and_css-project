@@ -49,10 +49,14 @@ table {
 
 /* ========================================== */
 
-.box {
-	width: 200px;
-	height: 200px;
-	background: green;
-	box-shadow: 10px 10px 10px pink;
-	-webkit-box-shadow: 10px 10px 10px pink;
+p {
+	color: red;
+}
+
+.box1 {
+	color:  blue;
+}
+
+.box2 {
+	color:  yellow;
 }
